@@ -1,0 +1,18 @@
+[
+  {
+    "question": "What is love?",
+    "explanation": "Baby dont hurt me",
+    "firstImage": "http://img.tijn.io/esites/onderzoek.png",
+    "firstButton": "Dank",
+    "secondImage": "http://img.tijn.io/esites/onderzoek.png",
+    "secondButton": "Dank2"
+  },
+  {
+    "question": "Dix",
+    "explanation": "dix",
+    "firstImage": "https://i.redd.it/khmhzaupqity.jpg",
+    "firstButton": "dix",
+    "secondImage": "https://i.redd.it/khmhzaupqity.jpg",
+    "secondButton": "dix"
+  }
+]
