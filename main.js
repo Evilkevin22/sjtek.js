@@ -12,12 +12,16 @@ var app = new Vue({
 });
 
 (function init() {
- next();
+    next();
 })();
 
 
 function next() {
 
+    Sjtek.toggleLight1();
+    Sjtek.getTemperatureInside(function (tempInside) {
+        console.log(tempInside);
+    });
     tellie++;
     var request = new Request('./data/questions.json', {
         method: 'GET',
