@@ -2,12 +2,12 @@ var tellie = -1;
 var app = new Vue({
     el: '.container',
     data: {
-        question: "yolo",
-        explanation: "diek",
+        question: "",
+        explanation: "",
         firstImage: "",
-        firstButton: "asdad",
+        firstButton: "",
         secondImage: "",
-        secondButton: "dgdssss"
+        secondButton: ""
     }
 });
 
@@ -18,10 +18,10 @@ var app = new Vue({
 
 function next() {
 
-    Sjtek.toggleLight1();
-    Sjtek.getTemperatureInside(function (tempInside) {
-        console.log(tempInside);
-    });
+    // Sjtek.toggleLight1();
+    // Sjtek.getTemperatureInside(function (tempInside) {
+    //     console.log(tempInside);
+    // });
     tellie++;
     var request = new Request('./data/questions.json', {
         method: 'GET',
