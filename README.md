@@ -1,4 +1,4 @@
-#Sjtek.js & Bootstrap/Vue.js prototype
+# Sjtek.js & Bootstrap/Vue.js prototype
 
 Dit is de repository van Kevin Grond die de bestanden bevat voor de M41 matchmaker prototype en de vernieuwde Sjtek Library
 ## Sjtek.js
