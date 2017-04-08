@@ -36,6 +36,30 @@ var Sjtek = {
             })
         },
 
+    getTemperatureOutside: function (callback) {
+        fetch(Sjtek.url + 'info').then(function (response) {
+            response.json().then(function (json) {
+                var tempInside = json.temperature.outside;
+                callback(tempOutside);
+            });
+        })
+    },
+
+    tempCheckoutside: function () {
+        this.getTemperatureOutside(function (tempOutside) {
+            if (parseInt(tempOutside) > 26) {
+                console.log('Gooi alle ramen dicht en hide in a dark corner')
+            } else {
+                console.log('Viespeuk het volume is goed genoeg')
+            }
+        })
+
+
+    }
+
+
+
+
         musicPlayPauze: function (state) {
             fetch(Sjtek.url + 'music/' + state).then(function (response) {
             });
@@ -58,5 +82,16 @@ var Sjtek = {
                 });
             })
         },
+
+    volumeCheck: function () {
+        this.getVolume(function (volumeVal) {
+            if (parseInt(volumeVal) > 40) {
+                fetch(Sjtek.url + 'music/volumeneutral').then(function (response) {
+                });
+            } else {
+                console.log('Viespeuk het volume is goed genoeg')
+            }
+        });
+    }
     }
 ;
