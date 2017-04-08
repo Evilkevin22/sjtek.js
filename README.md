@@ -2,7 +2,7 @@
 
 Dit is de repository van Kevin Grond die de bestanden bevat voor de M41 matchmaker prototype en de vernieuwde Sjtek Library
 ## Sjtek.js
-Sjtek js is een javascript library waar een grote collectie aan functies in staat die het mogelijk maakt om aspecten van ons huis te bedienen. De huidige versie werkt helaas alleen als je het ook host via onze eigen server vanwege een aantal issues met het ophalen van de data uit de sjtek JSON. Het is namelijk zo dat je niet zomaar cross domain data kan ophalen met de nieuwe Fetch funtie van JS. Hieronder een kleine illustratie.
+Sjtek js is een javascript library waar een grote collectie aan functies in staat die het mogelijk maakt om aspecten van ons huis te bedienen. De huidige versie werkt helaas alleen als je het ook host via onze eigen server vanwege een aantal issues met het ophalen van de data uit de sjtek JSON. Het is namelijk zo dat je niet zomaar cross domain data kan ophalen met de nieuwe Fetch funtie van JS. Hieronder een kleine illustratie. De sjtek JSON wordt gehost op https://sjtek.nl/info. Deze is ontwikkeld door de Sjtek organisatie , Hierin staat alle informatie over de het eigen ontwikkelde sjtek ecosysteem. 
 
 ![System overview](./Sjteklines.png)
 
