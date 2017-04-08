@@ -18,10 +18,11 @@ var app = new Vue({
 
 function next() {
 
-    // Sjtek.toggleLight1();
-    // Sjtek.getTemperatureInside(function (tempInside) {
-    //     console.log(tempInside);
-    // });
+    Sjtek.musicPlayPauze('pause');
+    Sjtek.getTemperatureInside(function (tempInside) {
+        console.log(tempInside);
+    });
+
     tellie++;
     var request = new Request('./data/questions.json', {
         method: 'GET',
