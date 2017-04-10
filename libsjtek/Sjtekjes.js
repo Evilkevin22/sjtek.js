@@ -55,11 +55,7 @@ var Sjtek = {
         })
 
 
-    }
-
-
-
-
+    },
         musicPlayPauze: function (state) {
             fetch(Sjtek.url + 'music/' + state).then(function (response) {
             });
