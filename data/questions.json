@@ -1,18 +1,18 @@
 [
   {
-    "question": "What is love?",
-    "explanation": "Baby dont hurt me",
-    "firstImage": "http://img.tijn.io/esites/onderzoek.png",
-    "firstButton": "Dank",
-    "secondImage": "http://img.tijn.io/esites/onderzoek.png",
-    "secondButton": "Dank2"
+    "question": "Engineering or Assembling?",
+    "explanation": "Pick what you prefer",
+    "firstImage": "http://www.kimal.co.uk/wp-content/uploads/2013/05/test-image.gif",
+    "Expl": "Being responsible for realization of precision mechanical function developments, ensuring to meet the specifications in terms of safety, reliability, stability, contamination free, cost effectiveness, manufacturability and serviceability.",
+    "secondImage": "http://www.kimal.co.uk/wp-content/uploads/2013/05/test-image.gif",
+    "Expl2": "Install and align components to a source module and analyse and solve minor disturbances as well as escalation of major disturbances. "
   },
   {
-    "question": "Dix",
-    "explanation": "dix",
-    "firstImage": "https://i.redd.it/khmhzaupqity.jpg",
-    "firstButton": "dix",
-    "secondImage": "https://i.redd.it/khmhzaupqity.jpg",
-    "secondButton": "dix"
+    "question": "Quality or Analysis?",
+    "explanation": "What would you choose?",
+    "firstImage": "http://1.bp.blogspot.com/_zxdOSKs0ASI/TDMqbnatRwI/AAAAAAAAAkM/nB-DxcVcqqk/s1600/Testbeeld.jpg",
+    "Expl": "Realize Performance on Improvements (technically and usability) of wafer measurements using scatterometry, this includes hardware and software improvements of the scatterometry based metrology solutions.",
+    "secondImage": "http://1.bp.blogspot.com/_zxdOSKs0ASI/TDMqbnatRwI/AAAAAAAAAkM/nB-DxcVcqqk/s1600/Testbeeld.jpg",
+    "Expl2": "Find out in detail what the root cause is of a part that failed at our customer’s site and to initiate & drive improvement proposals to prevent part failures."
   }
 ]

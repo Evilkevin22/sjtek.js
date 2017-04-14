@@ -18,7 +18,7 @@
 </head>
 
 <body>
-
+<div class="vuetje">
 <div class="container">
     <div class="header clearfix">
         <h3 class="text-muted">Matchmaker</h3>
@@ -26,28 +26,26 @@
 
     <div class="jumbotron">
         <h1>{{ question }}</h1>
-        <p class="lead">click on what suites you best</p>
+        <p class="lead">{{ explanation }}</p>
     </div>
 </div>
 
 <div class="row">
     <div class="col">
     </div>
-    <img src="https://i.redd.it/8w4keteyea5z.jpg" class="rounded float-left col-2" alt=""
+    <img class="rounded float-left col-2" alt=""
          style="height:auto;width: auto;max-width: 300px;max-height: 300px;">
     <div class="col-3">
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-            condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
-            euismod. Donec sed odio dui.</p>
+        <p> {{ Expl }} </p>
+        <button type="button" class="btn btn-info" onclick="next()">My choice</button>
     </div>
     <div class="col">
     </div>
     <div class="col-3">
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-            condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
-            euismod. Donec sed odio dui.</p>
+        <p> {{ Expl2 }} </p>
+        <button type="button" class="btn btn-info" onclick="next()">My choice</button>
     </div>
-    <img src="https://i.redd.it/8w4keteyea5z.jpg" class="rounded float-left col-2" alt="..."
+    <img class="rounded float-left col-2" alt="..."
          style="height:auto;width: auto;max-width: 300px;max-height: 300px;">
     <div class="col">
     </div>
@@ -56,7 +54,7 @@
 <footer style="width:100%;position: absolute;bottom: 0;" class="footer">
     <p class="col-2">&copy; 2017 Matchmaker Testing utility</p>
 </footer>
-
+</div>
 </body>
 
 <!-- Main logic file -->
